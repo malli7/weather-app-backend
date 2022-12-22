@@ -8,8 +8,8 @@ const express = require('express');
 const router = express.Router();
 
 // Set the API key for the OpenWeatherMap API
-const API_KEY = "3ccefed46f1823e34344c01c1d92c129";
-//const API_KEY = process.env.API_KEY;
+//const API_KEY = "3ccefed46f1823e34344c01c1d92c129";
+const API_KEY = process.env.API_KEY;
 
 // Array of cities to get weather data for
 const cities = ["London","Paris","New%20York","Moscow","Dubai","Tokyo","Singapore","Mumbai","Barcelona","Madrid","Rome","Doha","Chicago","Abu%20Dhabi","San%20Francisco","Amsterdam","Delhi","Toronto","Sydney","Berlin","Las%20Vegas","Washington%20DC","Istanbul","Vienna","Beijing","Prague","Milan","San%20Diego","Hong%20Kong","Melbourne"]      
